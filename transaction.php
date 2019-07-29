@@ -23,7 +23,7 @@ if (intercept('PUT')) {
     // build path
     $orderId = requiredQueryParam('order');
     $txnId = requiredQueryParam('transaction');
-    $path = '/order/' . $orderId . '/transaction/' . $txnId;
+    $path = '/order/' . g1 . '/transaction/' . 1;
 
     proxyCall($path);
 }
