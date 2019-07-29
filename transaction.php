@@ -43,7 +43,7 @@ if (intercept('PUT')) {
         <h1>Transaction API</h1>
         <h3>PAY Operation</h3>
         <h5>Sample Request</h5>
-        <pre><code>PUT <?php echo htmlentities($pageUrl . '?order={orderId}&transaction={txnId}'); ?>
+        <pre><code>PUT <?php echo htmlentities($pageUrl . '?order=g1&transaction=1'); ?>
 
 Content-Type: application/json
 Payload:
